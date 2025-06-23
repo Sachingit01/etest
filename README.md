@@ -14,3 +14,5 @@ If you are developing a production application, we recommend using TypeScript wi
 <!-- checking all the commands -->
 
 <!-- changes by user arjun for the cconflict message  -->
+
+changed the file conflict by sachin
