@@ -1,0 +1,96 @@
+.Form-container {
+  background-color: #111d2d;
+  width: 100%;
+  height: auto;
+  font-family: Poppins, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.main-container {
+  background-color: #15263a;
+  border: 1px solid white;
+  padding: 40px;
+  width: 90%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.main-container h1 {
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.grid-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.grid-form div {
+  width: 100%;
+}
+.form-field {
+  width: 100%;
+  background-color: #333f55;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 50px;
+  margin-top: 10px;
+  color: white;
+  padding: 5px 7px;
+}
+.form-label {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 15px;
+}
+.table {
+  border-collapse: collapse;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+.table tr td {
+  border: 1px solid #213e5f;
+  padding: 10px;
+}
+.plus-button {
+  height: 50px;
+  width: 50px;
+  color: white;
+  text-align: center;
+  background-color: #198450;
+  border: none;
+  border-radius: 5px;
+  font-size: x-large;
+  float: right;
+}
+.remove-button {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: #eb3c3c;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+}
+.btn-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clr-btn {
+  border-radius: 5px;
+  background-color: #69737d;
+  height: 50px;
+  width: 70px;
+  border: none;
+  color: white;
+  text-align: center;
+}
